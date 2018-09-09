@@ -1,0 +1,6 @@
+{
+    "css": {
+        "src": ["src/scss/*.scss"],
+        "out": "out/css/"
+    }
+}
