@@ -22,9 +22,9 @@ const nested = require('postcss-nested');
 const processorsCSS =[
   postcssImport,
   simpleVars,
-  minify,
   mixins,
-  nested
+  nested,
+  minify
 ]
 
 function styles() {
