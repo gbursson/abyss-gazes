@@ -1,18 +1,18 @@
 {
-    'css': {
-        'src': ['src/scss/*.scss'],
-        'out': 'out/css/'
+    "css": {
+        "src": ["src/scss/*.scss"],
+        "out": "out/css/"
     },
-    'html': {
-        'src': ['src/*.html'],
-        'out': 'out/'
+    "html": {
+        "src": ["src/*.html"],
+        "out": "out/"
     },
-    'js': {
-        'src': ['src/js/*.js'],
-        'out': 'out/js/'
+    "js": {
+        "src": ["src/js/*.js"],
+        "out": "out/js/"
     },
-    'images': {
-        'src': ['src/images/*.*'],
-        'out': 'out/images/'
+    "images": {
+        "src": ["src/images/*.*"],
+        "out": "out/images/"
     }
 }
