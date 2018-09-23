@@ -1,0 +1,22 @@
+@import 'normalize.css';
+
+$dir:    top;
+$blue:   #056ef0;
+$column: 200px;
+
+.menu_link {
+    background: $blue;
+    width: $column;
+}
+.menu {
+    width: calc(4 * $column);
+    margin-$(dir): 10px;
+}
+
+:root {
+  --color: red;
+}
+
+h1 {
+  color: var(--color);
+}

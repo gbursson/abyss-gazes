@@ -1,11 +1,7 @@
 {
     "css": {
-        "src": ["src/scss/*.scss"],
+        "src": ["src/css/*.css"],
         "out": "out/css/"
-    },
-    "html": {
-        "src": ["src/*.html"],
-        "out": "out/"
     },
     "js": {
         "src": ["src/js/*.js"],
@@ -14,5 +10,15 @@
     "images": {
         "src": ["src/images/*.*"],
         "out": "out/images/"
-    }
+    },
+    "html": {
+        "src": ["src/*.html"],
+        "out": "out/"
+    },
+    "markdown": {
+        "src": ["src/*.md"],
+        "out": "out/"
+    },
+    "destination": "out/"
+
 }
