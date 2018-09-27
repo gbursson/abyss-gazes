@@ -3,45 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "global": "^4.3.2",
-    "imagemin-cli": "^3.0.0",
-    "normalize.css": "^8.0.0"
-  },
   "devDependencies": {
-    "@babel/core": "7.0.0",
     "autoprefixer": "^9.1.5",
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "babelify": "^10.0.0",
     "cssnano": "^4.1.0",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
+    "gulp-cssimport": "^6.0.1",
     "gulp-metalsmith": "^1.1.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-restart": "^0.1.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "postcss-custom-media": "^7.0.1",
-    "postcss-custom-properties": "^7.0.0",
-    "postcss-custom-selectors": "^5.0.0",
+    "postcss-css-variables": "^0.10.0",
+    "postcss-custom-properties": "^8.0.6",
     "postcss-import": "^12.0.0",
-    "postcss-media-minmax": "^3.0.0",
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^4.1.0",
-    "postcss-preset-env": "^5.3.0",
     "postcss-simple-vars": "^5.0.1",
-    "postcss-utilities": "^0.8.0"
+    "rename": "^1.0.4",
+    "stylelint": "^9.6.0"
+  },
+  "dependencies": {
+    "normalize": "^0.3.1"
   }
 }
