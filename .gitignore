@@ -3,3 +3,4 @@ not_tracked/
 out/
 .vscode/
 yarn.lock
+package-lock.json
